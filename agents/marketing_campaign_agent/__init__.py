@@ -1,0 +1,1 @@
+from ...marketing_campaign_agent import agent

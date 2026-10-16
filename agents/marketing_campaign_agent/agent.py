@@ -10,7 +10,7 @@ except ImportError:
 
 from google.adk.agents import LlmAgent, SequentialAgent 
 from google.adk.tools import google_search
-from marketing_campaign_agent.instructions import MARKET_RESEARCH_INSTRUCTION, CAMPAIGN_ORCHESTRATOR_INSTRUCTION
+from agents.marketing_campaign_agent.instructions import MARKET_RESEARCH_INSTRUCTION, CAMPAIGN_ORCHESTRATOR_INSTRUCTION
 
 
 market_research_agent = LlmAgent(
