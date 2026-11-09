@@ -59,6 +59,7 @@ weather_agent = Agent(
         "You are a helpful agent who can answer user questions about the time and weather in a "
         "city."
     ),
+    output_key="msg", # Save response to state['msg']
     tools=[get_weather, get_current_time],
 )
 
